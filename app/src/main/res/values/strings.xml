@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Retail Sales</string>
+    <string name="scan">Validate Order</string>
+    <string name="please_try_again">Please try again.</string>
+    <string name="approved">Collect Payment</string>
+    <string name="scan_nothing">Scan nothing</string>
+    <string name="order_approved">Order Approved</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="already_approved">Payment Received</string>
+    <string name="loyal_customers">Find Premium Customers</string>
+    <string name="no_data_available">No data available</string>
+    <string name="no_loyal_customer">No records available.</string>
+    <string name="choseOption">Chose Option</string>
+    <string name="openCamera">Open Camera</string>
+    <string name="openGalary">Open Gallery</string>
+    <string name="enteryourusername">Email / Phone Number</string>
+    <string name="enteryourpassword">Password</string>
+    <string name="enteryouremail">Email</string>
+    <string name="enteryourfirstname">First Name</string>
+    <string name="enteryourlastname">Last Name</string>
+    <string name="enteryourphonenumber">Phone Number</string>
+    <string name="enteryourpincode">Pincode</string>
+    <string name="enteryourlocation">Address</string>
+    <string name="forgetpassword">forget password?</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="SIGNUP">SIGN UP</string>
+    <string name="Update">Update</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="powerd_by">Powerd by Cisco CMX and Hipla</string>
+</resources>

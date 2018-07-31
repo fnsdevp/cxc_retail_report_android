@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable name="user" type="com.hipla.retail.model.Login_model"/>
+        <variable name="activity" type="com.hipla.retail.activity.SignupActivity"/>
+    </data>
+
+
+<ScrollView
+    android:id="@+id/scl_reg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+      >
+
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@mipmap/login_logo"
+        android:layout_gravity="center_horizontal"
+        />
+
+        <EditText
+            android:id="@+id/email_reg"
+            android:textColor="@color/colorGreydeep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_background_upper"
+            android:hint="@string/enteryouremail"
+            android:layout_marginTop="1px"
+            android:padding="@dimen/_10sdp"
+            android:textColorHint="@color/colorGreydeep"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            app:font_thin="@{user.typeface}"
+
+            />
+
+
+        <EditText
+            android:id="@+id/phone_reg"
+            android:textColor="@color/colorGreydeep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:inputType="phone"
+            android:hint="@string/enteryourphonenumber"
+            android:layout_marginTop="1px"
+            android:padding="@dimen/_10sdp"
+            android:textColorHint="@color/colorGreydeep"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:maxLength="10"
+            app:font_thin="@{user.typeface}"
+
+            />
+
+
+        <EditText
+            android:id="@+id/password_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/enteryourpassword"
+            android:layout_marginTop="1px"
+            android:padding="@dimen/_10sdp"
+            android:textColorHint="@color/colorGreydeep"
+            android:inputType="textPassword"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textColor="@color/colorGreydeep"
+            app:font_thin="@{user.typeface}"
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/fname_reg"
+            android:textColor="@color/colorGreydeep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/enteryourfirstname"
+            android:layout_marginTop="1px"
+            android:padding="@dimen/_10sdp"
+            android:textColorHint="@color/colorGreydeep"
+            android:inputType="text"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            app:font_thin="@{user.typeface}"
+
+            />
+
+
+        <EditText
+            android:id="@+id/lname_reg"
+            android:textColor="@color/colorGreydeep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/enteryourlastname"
+            android:layout_marginTop="1px"
+            android:padding="@dimen/_10sdp"
+            android:textColorHint="@color/colorGreydeep"
+            android:inputType="text"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            app:font_thin="@{user.typeface}"
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/location_reg"
+            android:textColor="@color/colorGreydeep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:inputType="text"
+            android:hint="@string/enteryourlocation"
+            android:layout_marginTop="1px"
+            android:padding="@dimen/_10sdp"
+            android:textColorHint="@color/colorGreydeep"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            app:font_thin="@{user.typeface}"
+
+            />
+
+
+        <EditText
+                android:id="@+id/pincode_reg"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_background_lower"
+            android:hint="@string/enteryourpincode"
+            android:layout_marginTop="1px"
+            android:inputType="number"
+            android:padding="@dimen/_10sdp"
+            android:textColorHint="@color/colorGreydeep"
+            android:textColor="@color/colorGreydeep"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            app:font_thin="@{user.typeface}"
+            android:maxLength="6"
+
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            >
+
+            <Button
+                android:id="@+id/btn_login_login"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/btn_height_small"
+                android:text="@string/LOGIN"
+                android:background="@drawable/btn_background_grey"
+                android:textColor="@color/colorGreydeep"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:onClick="@{()->activity.login()}"
+                android:textSize="@dimen/_18ssp"
+                android:elevation="@dimen/_1sdp"
+                android:stateListAnimator="@null"
+                app:font_thin="@{user.typeface}"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/btn_height_small"
+                android:text="@string/SIGNUP"
+                android:background="@drawable/btn_background_green"
+                android:textColor="@color/colorGreendeep"
+                android:layout_weight="1"
+                android:textSize="@dimen/_18ssp"
+                android:stateListAnimator="@null"
+                android:onClick="@{()->activity.signup()}"
+                app:font_thin="@{user.typeface}"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>
+
+</layout>

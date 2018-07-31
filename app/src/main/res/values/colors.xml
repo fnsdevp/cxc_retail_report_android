@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5fd050</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#5fb050</color>
+    <color name="colorGreenshadow">#bff9b5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackTransperent">#99000000</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGrey">#DADCD9</color>  <!--dbdcd9-->
+    <color name="colorGreymid">#9b9b9b</color>   <!--9B9A9B-->
+    <color name="colorGreydeep">#4a4a4a</color>   <!--5C5B5C-->
+    <color name="colorGreendeep">#5fb050</color>   <!--508500-->
+    <color name="colorGreenlite">#5fd050</color> <!--5EB050-->
+    <color name="colorGreenlink">#508500</color>   <!--508500-->
+    <color name="colorBlackLight">#4A4A4A</color>   <!--508500-->
+    <color name="colorBlackLightHeader">#606060</color>
+    <color name="dialogBgColor">#44101010</color>   <!--508500-->
+    <color name="mapBgColor">#ebebeb</color>
+    <color name="transperent_white">#7de9e1e1</color>
+</resources>

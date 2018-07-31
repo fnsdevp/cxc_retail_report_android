@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="toolbar_height" >@dimen/_45sdp</dimen>
+    <dimen name="icon_toolbar">@dimen/_26sdp</dimen>
+    <dimen name="cart_imageHeight">@dimen/_29sdp</dimen>
+    <dimen name="logo_normal">@dimen/_70sdp</dimen>
+    <dimen name="m30">@dimen/_26sdp</dimen>
+    <dimen name="m20">@dimen/_18sdp</dimen>
+    <dimen name="m10">@dimen/_9sdp</dimen>
+    <dimen name="image_padding">@dimen/_12sdp</dimen>
+    <dimen name="edit_text_height">@dimen/_30sdp</dimen>
+    <dimen name="btn_height_small">@dimen/_32sdp</dimen>
+    <dimen name="btn_height">@dimen/_40sdp</dimen>
+    <dimen name="btn_width">@dimen/_100sdp</dimen>
+    <dimen name="btn_height_large">@dimen/_50sdp</dimen>
+    <dimen name="m5">@dimen/_4sdp</dimen>
+    <dimen name="m7">@dimen/_6sdp</dimen>
+    <dimen name="m40">@dimen/_38sdp</dimen>
+    <dimen name="camera_width">@dimen/_220sdp</dimen>
+    <dimen name="camera_height">@dimen/_210sdp</dimen>
+    <dimen name="text_normal">@dimen/_11ssp</dimen>
+
+</resources>

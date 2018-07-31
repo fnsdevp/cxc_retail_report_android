@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+
+    <com.hipla.retail.util.SquareImageLayout
+        android:id="@+id/iv_product"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/m10"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/iv_product"
+        android:layout_toLeftOf="@+id/ll_info"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avocade"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/colorGreydeep"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="each"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/colorGreymid"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="196 Rs/-"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/colorGreendeep"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:visibility="visible"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tv_quantity_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:ems="2"
+            android:visibility="visible"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/colorGreydeep"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

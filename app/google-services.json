@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1037942464529",
+    "firebase_url": "https://retailreport-30537.firebaseio.com",
+    "project_id": "retailreport-30537",
+    "storage_bucket": "retailreport-30537.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037942464529:android:f82833fb78fa6987",
+        "android_client_info": {
+          "package_name": "com.hipla.retail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037942464529-f1qcmradh9m9glan9gk9aptmb8gaad5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hipla.retail",
+            "certificate_hash": "25b4a34d78a018840fc417e69ccea2cc4a8301ae"
+          }
+        },
+        {
+          "client_id": "1037942464529-p3d1objijo0ebldshhgiv4cqocqr2onj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5LmfE7gCTu5UPTv0XWygoW44LaylsivA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037942464529-p3d1objijo0ebldshhgiv4cqocqr2onj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
